@@ -1,79 +1,70 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# Mobile Application
 
-# Getting Started
+This is a React Native mobile application built with TypeScript, featuring a modern, scalable architecture.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## 🚀 Getting Started
 
-## Step 1: Start the Metro Server
+### Prerequisites
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+- Node.js (v18 or later)
+- Watchman (recommended for macOS)
+- Xcode (for iOS development)
+- Android Studio (for Android development)
+- React Native CLI
 
-To start Metro, run the following command from the _root_ of your React Native project:
+### Installation & Setup
 
-```bash
-# using npm
-npm start
+1.  **Clone the repository:**
+    ```bash
+    git clone <repository-url>
+    cd <repository-directory>
+    ```
 
-# OR using Yarn
-yarn start
-```
+2.  **Install dependencies:**
+    ```bash
+    npm install
+    ```
 
-## Step 2: Start your Application
+3.  **Add Custom Fonts:**
+    This project is configured to use the Roboto font family. To add the font files:
+    - Download Roboto from [Google Fonts](https://fonts.google.com/specimen/Roboto).
+    - Place the `.ttf` files (e.g., `Roboto-Regular.ttf`, `Roboto-Bold.ttf`) into the `/assets/fonts/` directory.
+    - Link the font assets by running:
+      ```bash
+      npx react-native-asset
+      ```
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+### Running the Application
 
-### For Android
-
-```bash
-# using npm
+- **For iOS:**
+  ```bash
+  npm run ios
+For Android:
 npm run android
+🏗️ Architecture
+This project follows a modern, scalable architecture for React Native development.
 
-# OR using Yarn
-yarn android
-```
+Core Libraries
+React Navigation: For handling all navigation logic, including the root authentication flow, a main stack, and a bottom tab navigator.
+Redux Toolkit: For global state management. We use it for:
+RTK Query: For efficient data fetching, caching, and managing server state (/src/services/api.ts).
+authSlice: For managing the user's authentication token and status.
+themeSlice: For managing the application's theme (light/dark/system).
+TypeScript: For static typing and improved developer experience.
+Project Structure
+src/components: Contains reusable components used throughout the application (e.g., Button, Container, Header).
+src/hooks: Custom hooks, such as useTheme.
+src/navigation: All navigation-related code, including stacks and tab navigators. The RootNavigator handles the switch between authenticated and unauthenticated flows.
+src/screens: Feature-based screen components.
+src/services: API service definitions using RTK Query.
+src/store: Redux store configuration and slice definitions.
+src/styles: Global and component-specific style definitions.
+src/theme: Theme-related files, including color palettes and metrics.
+src/types: TypeScript type definitions for the application.
+Styling
+The application uses a custom theme system built on top of React Native's StyleSheet. A useTheme hook provides access to theme-aware colors, which allows for easy implementation of light and dark modes.
 
-### For iOS
+✅ Running Tests
+The project uses Jest for testing. To run the test suite, use the following command:
 
-```bash
-# using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
-
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
-
-## Step 3: Modifying your App
-
-Now that you have successfully run the app, let's modify it.
-
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
-
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+npm test

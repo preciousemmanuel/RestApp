@@ -1,0 +1,1080 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* telemedamobilepatientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* telemedamobilepatientTests.m */; };
+		043CE5AD2D3A696400023541 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 043CE5AC2D3A696400023541 /* GoogleService-Info.plist */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		6010974DE8FCD421143FE6F7 /* Pods_telemedamobilepatient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8276E7D203B639F60081035C /* Pods_telemedamobilepatient.framework */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		989C5A4027185B87AC7EF494 /* Pods_telemedamobilepatient_telemedamobilepatientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3613FBC0F4438FAEB7099935 /* Pods_telemedamobilepatient_telemedamobilepatientTests.framework */; };
+		AE8F2C8F032AE1548D2121CF /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		4FEF1B6EB85A44FA952792B0 /* Raleway-Italic-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2FAC5E70CD6241A3BCC415F9 /* Raleway-Italic-VariableFont_wght.ttf */; };
+		B2ED36E0D8304487BF224349 /* Raleway-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A7E727FCF042419592B9859C /* Raleway-VariableFont_wght.ttf */; };
+		7F4833D6CBF142E0AAD0EE5E /* Raleway-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B178A4ED2FE94D6983965C65 /* Raleway-Black.ttf */; };
+		D94614F83F464BFE813C8DA3 /* Raleway-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE15E5905DEE4398B00652F2 /* Raleway-BlackItalic.ttf */; };
+		F8B1AFD38E104F0DB8BFD427 /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B4147E1EE414A508CB364B6 /* Raleway-Bold.ttf */; };
+		5DECCE8F08544C558261DA2B /* Raleway-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E3521067F11642198DBE3CB1 /* Raleway-BoldItalic.ttf */; };
+		B2536C8CAE98416983968733 /* Raleway-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 34FE498FE1AC46D099826A5B /* Raleway-ExtraBold.ttf */; };
+		6C5544DC58514C1A9A5F0B1F /* Raleway-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9227E3D9CA814CFC9A3C608A /* Raleway-ExtraBoldItalic.ttf */; };
+		8714093BCB774A7AA1286E8A /* Raleway-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C95F2024286E41189B1CF970 /* Raleway-ExtraLight.ttf */; };
+		EB2DCAE9842A409486BDF6A0 /* Raleway-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = FFCCB668CDA943DF847C84EA /* Raleway-ExtraLightItalic.ttf */; };
+		99086988CBF445638DDD83D4 /* Raleway-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 89FA445F6EDC4509AE449D9D /* Raleway-Italic.ttf */; };
+		1B68993FF90D42E3A7DE9DBF /* Raleway-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 44E70209C4C64DCC8BCCDC64 /* Raleway-Light.ttf */; };
+		3672D5C5569A4BB78A581E55 /* Raleway-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E1B38D866EF942FD81E9637D /* Raleway-LightItalic.ttf */; };
+		DA90ABA5E61146AAB3C7F3AC /* Raleway-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9EB2F0D82A1F461DB97736C2 /* Raleway-Medium.ttf */; };
+		4B9B7903651442F1B42B2017 /* Raleway-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6C01033CC56945C4A6F5E349 /* Raleway-MediumItalic.ttf */; };
+		3DFE96DF91F74856AAF27858 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 75A84A6DFDAD4190BDE88A08 /* Raleway-Regular.ttf */; };
+		A55335BA8224403F9031F5F3 /* Raleway-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 53A8DA32203E4350A3824D39 /* Raleway-SemiBold.ttf */; };
+		168647F44B8D43A586F01458 /* Raleway-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B58B66C13D124363A6A4D80A /* Raleway-SemiBoldItalic.ttf */; };
+		73671B85EC524B5AAF34046B /* Raleway-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0CA5C9C40AA44B39936C5389 /* Raleway-Thin.ttf */; };
+		239BA29965384CFE95AE9620 /* Raleway-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1463A7C925814A85B96261A7 /* Raleway-ThinItalic.ttf */; };
+		10DBD54DCA054BB9B967FB0B /* Roboto-Italic-VariableFont_wdth,wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B36AF0DD488D4DBB91B5882E /* Roboto-Italic-VariableFont_wdth,wght.ttf */; };
+		92F9F4DD674F4B20A01BF181 /* Roboto-VariableFont_wdth,wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2D9BC390B9B147869C2139FD /* Roboto-VariableFont_wdth,wght.ttf */; };
+		68D5805826904717AB05DCCD /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A122C7FB1E04A6CA4F3DB7F /* Roboto-Black.ttf */; };
+		8BEE9B1895774161B7806141 /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 794C5EC08D724AEAAE006277 /* Roboto-BlackItalic.ttf */; };
+		0898AC63452B431B9CFDEBDA /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 14FEB4D140054B9195611328 /* Roboto-Bold.ttf */; };
+		537F1E5037204C8AA8E010B7 /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0A5E4C94044AF787B50E9D /* Roboto-BoldItalic.ttf */; };
+		50576C2E80A34304A2448392 /* Roboto-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 774578E9BA0E4C5C9C2E3344 /* Roboto-ExtraBold.ttf */; };
+		6D682C7CC30A4768A73928B4 /* Roboto-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 01D088B6A2724EFC8313789F /* Roboto-ExtraBoldItalic.ttf */; };
+		8872609D2EE94E1DB09C6632 /* Roboto-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1314F37C2D2E4B50A091932B /* Roboto-ExtraLight.ttf */; };
+		EE77F74E323045C6803F4DAE /* Roboto-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB5B8F8D30CC466EBA3113FE /* Roboto-ExtraLightItalic.ttf */; };
+		D8654C31612D49F4AA425736 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CC44B048CAD24829898C0C4C /* Roboto-Italic.ttf */; };
+		8B0181F1809F46F4BC9A7C31 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7C7341933D8045ACBD8BB716 /* Roboto-Light.ttf */; };
+		DF7945CA9F3842259C8A1B71 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42160F2001AB4DFE95D9EC9B /* Roboto-LightItalic.ttf */; };
+		8B57620252624E00A6AC9D03 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 16EB8272F8804308A343FBEE /* Roboto-Medium.ttf */; };
+		F88F14A9B2224C34AC354E0E /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2A07AA50C573404991A7D292 /* Roboto-MediumItalic.ttf */; };
+		CFFFE5442CDF426091780950 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EDF86FF5A5914145B6F432A2 /* Roboto-Regular.ttf */; };
+		377DF2C529DE4E6EBC299E2B /* Roboto-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CC57748746045B3800089BE /* Roboto-SemiBold.ttf */; };
+		2EAA5AF9504248E1B8CD8ADF /* Roboto-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1B7135C59C45403AB4FE58E2 /* Roboto-SemiBoldItalic.ttf */; };
+		3830E7FC6D254102BCA03C03 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8E0AFB58AE4C49E6B2952E12 /* Roboto-Thin.ttf */; };
+		BAC62CB9EB8947A2BCC62958 /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B3F7E5C536264BF3AA96DA15 /* Roboto-ThinItalic.ttf */; };
+		AA2B00452CBD4CBAAA966357 /* Roboto_Condensed-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1A909838AC8F4909A3E303A3 /* Roboto_Condensed-Black.ttf */; };
+		CFD100A1A5B04D3EA1F999B5 /* Roboto_Condensed-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 890F7F7A9CC949D2B267C766 /* Roboto_Condensed-BlackItalic.ttf */; };
+		EF418DDA143E4B6A807767DD /* Roboto_Condensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1AEA88BB176E485CB7935A2B /* Roboto_Condensed-Bold.ttf */; };
+		1FA8E5AB4EC14642B9061503 /* Roboto_Condensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B0C51E9FDE147EA82B34427 /* Roboto_Condensed-BoldItalic.ttf */; };
+		298D57E1B7064A62BD6CDFDB /* Roboto_Condensed-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 06E28E839C8F4F838CA5DD3E /* Roboto_Condensed-ExtraBold.ttf */; };
+		4EDA4F3267D7437AB4C1D78B /* Roboto_Condensed-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 80ACD2276EFD413383C28303 /* Roboto_Condensed-ExtraBoldItalic.ttf */; };
+		16A2D97C189A4EBA9EF5DD59 /* Roboto_Condensed-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 092D4B994EED4276BA382FDB /* Roboto_Condensed-ExtraLight.ttf */; };
+		1405248094274259A4236E90 /* Roboto_Condensed-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B4A1CD5FC1CD4FD8B90DC492 /* Roboto_Condensed-ExtraLightItalic.ttf */; };
+		10A6F7B05D744A1B85A24584 /* Roboto_Condensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9FB802C0705948338016961D /* Roboto_Condensed-Italic.ttf */; };
+		4A71010EBF3F46E98720E23B /* Roboto_Condensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B96015FE8984704A6E5941D /* Roboto_Condensed-Light.ttf */; };
+		CF606EBABDB24EE193010194 /* Roboto_Condensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0E1D7CFC907E4482B4149498 /* Roboto_Condensed-LightItalic.ttf */; };
+		F8377DADC52B49859958244C /* Roboto_Condensed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 04188FE9846041C4A928C2D0 /* Roboto_Condensed-Medium.ttf */; };
+		0B4BDAF3B9A24A8FA1BB385E /* Roboto_Condensed-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DB906D5BEE0D4487B87E59C2 /* Roboto_Condensed-MediumItalic.ttf */; };
+		37AEB586CD9F437B98C51639 /* Roboto_Condensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 027D86CA7B354CCAA5764320 /* Roboto_Condensed-Regular.ttf */; };
+		A947976124024C678142BA3A /* Roboto_Condensed-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D618F6EFC7C741B5BFAAA7A4 /* Roboto_Condensed-SemiBold.ttf */; };
+		16972970CE1448ECABF50EF9 /* Roboto_Condensed-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6A7E04BBCAB4477B8384EB59 /* Roboto_Condensed-SemiBoldItalic.ttf */; };
+		40271B5AC6254D00A9585C52 /* Roboto_Condensed-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 254B0564F3A14448B35C7EAA /* Roboto_Condensed-Thin.ttf */; };
+		D749999973754208AB6DF40A /* Roboto_Condensed-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BEFB49436E444D52B2277017 /* Roboto_Condensed-ThinItalic.ttf */; };
+		D7142FCDD7FE4F2CB32DE0AF /* Roboto_SemiCondensed-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7041E6593E98461795E683BB /* Roboto_SemiCondensed-Black.ttf */; };
+		592A96AD60BB429EBE5B286F /* Roboto_SemiCondensed-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 39C49F209DD74320A18DEEF1 /* Roboto_SemiCondensed-BlackItalic.ttf */; };
+		A0519808E791406AACE8FC8B /* Roboto_SemiCondensed-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6EB329AFA8142B3AE77BBA9 /* Roboto_SemiCondensed-Bold.ttf */; };
+		CDF98F27DC4C4F39B56E1A27 /* Roboto_SemiCondensed-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2292CAE12743489AB8F90C09 /* Roboto_SemiCondensed-BoldItalic.ttf */; };
+		16560B39584F498A85EA1C08 /* Roboto_SemiCondensed-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 850E62920E504081811902D4 /* Roboto_SemiCondensed-ExtraBold.ttf */; };
+		950AD54E4118434B8EFC9E59 /* Roboto_SemiCondensed-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0EE5F6D5D5F44A9BAA25B71B /* Roboto_SemiCondensed-ExtraBoldItalic.ttf */; };
+		DDE420D227404419B4097CCA /* Roboto_SemiCondensed-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 09216B0B9DA74CADA68B39E1 /* Roboto_SemiCondensed-ExtraLight.ttf */; };
+		E297FCF1E040483D9958A040 /* Roboto_SemiCondensed-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8A5E7B7B29E149CAAA694ABF /* Roboto_SemiCondensed-ExtraLightItalic.ttf */; };
+		4E7AD6B5F6C94C0EA9330ED6 /* Roboto_SemiCondensed-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ED06FEB0C4CD49509DB62027 /* Roboto_SemiCondensed-Italic.ttf */; };
+		40797BD4D5F647718CDD0D3E /* Roboto_SemiCondensed-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D34F7C63BE9445E69D1350A8 /* Roboto_SemiCondensed-Light.ttf */; };
+		193F9E9FB4C944F2AD7D99B1 /* Roboto_SemiCondensed-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7985471770794AD2AC5D2B5E /* Roboto_SemiCondensed-LightItalic.ttf */; };
+		886AF8C3B39F42E0B8CA1C4A /* Roboto_SemiCondensed-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 466ECBF9407C4DF19AF42374 /* Roboto_SemiCondensed-Medium.ttf */; };
+		3BEC5BB852DF46328F3BCBC9 /* Roboto_SemiCondensed-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DAFC032A69F74FADB47DFB8F /* Roboto_SemiCondensed-MediumItalic.ttf */; };
+		A47EBBEA5F41406AAE82B137 /* Roboto_SemiCondensed-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 56AA549AC3994BF4A97DE1A6 /* Roboto_SemiCondensed-Regular.ttf */; };
+		22E606E980B64D20BEE81615 /* Roboto_SemiCondensed-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E365CDE310B84C728338DC44 /* Roboto_SemiCondensed-SemiBold.ttf */; };
+		B8BE130944D04681A6645FC1 /* Roboto_SemiCondensed-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1216595C82154BE4BB61DB26 /* Roboto_SemiCondensed-SemiBoldItalic.ttf */; };
+		9FE0E8776F964AF7AB483861 /* Roboto_SemiCondensed-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 90A6672F351B4F74A773D47E /* Roboto_SemiCondensed-Thin.ttf */; };
+		1A0DBB03895F4A4E9A6FC9A1 /* Roboto_SemiCondensed-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42E6E102F5524AF795D8D185 /* Roboto_SemiCondensed-ThinItalic.ttf */; };
+		4D02E9EBA938406F8F29BF7C /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 6887F6D912ED4CC594AD27B2 /* OFL.txt */; };
+		76FBE9C3C5B74E999822D30F /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 7C3ED970C05A4D4FAF21B8DB /* README.md */; };
+		0F58BE95B87F4E4C8464DC59 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = A63DC2D5675D43B29B14B7D3 /* README.txt */; };
+		D6D26EB077A94EECAAECD345 /* Raleway,Roboto.zip in Resources */ = {isa = PBXBuildFile; fileRef = D9A3C5C6F81744DDA8B1014F /* Raleway,Roboto.zip */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = telemedamobilepatient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* telemedamobilepatientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = telemedamobilepatientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* telemedamobilepatientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = telemedamobilepatientTests.m; sourceTree = "<group>"; };
+		043CE5AC2D3A696400023541 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		04FBCC0C2E1FF64300BC65ED /* telemedamobilepatient.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = telemedamobilepatient.entitlements; path = telemedamobilepatient/telemedamobilepatient.entitlements; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* telemedamobilepatient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = telemedamobilepatient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = telemedamobilepatient/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = telemedamobilepatient/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = telemedamobilepatient/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = telemedamobilepatient/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = telemedamobilepatient/main.m; sourceTree = "<group>"; };
+		13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = PrivacyInfo.xcprivacy; path = telemedamobilepatient/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		3613FBC0F4438FAEB7099935 /* Pods_telemedamobilepatient_telemedamobilepatientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_telemedamobilepatient_telemedamobilepatientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4392A12AC88292D35C810B /* Pods-telemedamobilepatient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-telemedamobilepatient.debug.xcconfig"; path = "Target Support Files/Pods-telemedamobilepatient/Pods-telemedamobilepatient.debug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-telemedamobilepatient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-telemedamobilepatient.release.xcconfig"; path = "Target Support Files/Pods-telemedamobilepatient/Pods-telemedamobilepatient.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-telemedamobilepatient-telemedamobilepatientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-telemedamobilepatient-telemedamobilepatientTests.debug.xcconfig"; path = "Target Support Files/Pods-telemedamobilepatient-telemedamobilepatientTests/Pods-telemedamobilepatient-telemedamobilepatientTests.debug.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = telemedamobilepatient/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8276E7D203B639F60081035C /* Pods_telemedamobilepatient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_telemedamobilepatient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-telemedamobilepatient-telemedamobilepatientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-telemedamobilepatient-telemedamobilepatientTests.release.xcconfig"; path = "Target Support Files/Pods-telemedamobilepatient-telemedamobilepatientTests/Pods-telemedamobilepatient-telemedamobilepatientTests.release.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		2FAC5E70CD6241A3BCC415F9 /* Raleway-Italic-VariableFont_wght.ttf */ = {isa = PBXFileReference; name = "Raleway-Italic-VariableFont_wght.ttf"; path = "../assets/fonts/Raleway,Roboto/Raleway/Raleway-Italic-VariableFont_wght.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A7E727FCF042419592B9859C /* Raleway-VariableFont_wght.ttf */ = {isa = PBXFileReference; name = "Raleway-VariableFont_wght.ttf"; path = "../assets/fonts/Raleway,Roboto/Raleway/Raleway-VariableFont_wght.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B178A4ED2FE94D6983965C65 /* Raleway-Black.ttf */ = {isa = PBXFileReference; name = "Raleway-Black.ttf"; path = "../assets/fonts/Raleway,Roboto/Raleway/static/Raleway-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EE15E5905DEE4398B00652F2 /* Raleway-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-BlackItalic.ttf"; path = "../assets/fonts/Raleway,Roboto/Raleway/static/Raleway-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3B4147E1EE414A508CB364B6 /* Raleway-Bold.ttf */ = {isa = PBXFileReference; name = "Raleway-Bold.ttf"; path = "../assets/fonts/Raleway,Roboto/Raleway/static/Raleway-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E3521067F11642198DBE3CB1 /* Raleway-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-BoldItalic.ttf"; path = "../assets/fonts/Raleway,Roboto/Raleway/static/Raleway-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		34FE498FE1AC46D099826A5B /* Raleway-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Raleway-ExtraBold.ttf"; path = "../assets/fonts/Raleway,Roboto/Raleway/static/Raleway-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9227E3D9CA814CFC9A3C608A /* Raleway-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-ExtraBoldItalic.ttf"; path = "../assets/fonts/Raleway,Roboto/Raleway/static/Raleway-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		C95F2024286E41189B1CF970 /* Raleway-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Raleway-ExtraLight.ttf"; path = "../assets/fonts/Raleway,Roboto/Raleway/static/Raleway-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		FFCCB668CDA943DF847C84EA /* Raleway-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-ExtraLightItalic.ttf"; path = "../assets/fonts/Raleway,Roboto/Raleway/static/Raleway-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		89FA445F6EDC4509AE449D9D /* Raleway-Italic.ttf */ = {isa = PBXFileReference; name = "Raleway-Italic.ttf"; path = "../assets/fonts/Raleway,Roboto/Raleway/static/Raleway-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		44E70209C4C64DCC8BCCDC64 /* Raleway-Light.ttf */ = {isa = PBXFileReference; name = "Raleway-Light.ttf"; path = "../assets/fonts/Raleway,Roboto/Raleway/static/Raleway-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E1B38D866EF942FD81E9637D /* Raleway-LightItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-LightItalic.ttf"; path = "../assets/fonts/Raleway,Roboto/Raleway/static/Raleway-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9EB2F0D82A1F461DB97736C2 /* Raleway-Medium.ttf */ = {isa = PBXFileReference; name = "Raleway-Medium.ttf"; path = "../assets/fonts/Raleway,Roboto/Raleway/static/Raleway-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6C01033CC56945C4A6F5E349 /* Raleway-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-MediumItalic.ttf"; path = "../assets/fonts/Raleway,Roboto/Raleway/static/Raleway-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		75A84A6DFDAD4190BDE88A08 /* Raleway-Regular.ttf */ = {isa = PBXFileReference; name = "Raleway-Regular.ttf"; path = "../assets/fonts/Raleway,Roboto/Raleway/static/Raleway-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		53A8DA32203E4350A3824D39 /* Raleway-SemiBold.ttf */ = {isa = PBXFileReference; name = "Raleway-SemiBold.ttf"; path = "../assets/fonts/Raleway,Roboto/Raleway/static/Raleway-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B58B66C13D124363A6A4D80A /* Raleway-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-SemiBoldItalic.ttf"; path = "../assets/fonts/Raleway,Roboto/Raleway/static/Raleway-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0CA5C9C40AA44B39936C5389 /* Raleway-Thin.ttf */ = {isa = PBXFileReference; name = "Raleway-Thin.ttf"; path = "../assets/fonts/Raleway,Roboto/Raleway/static/Raleway-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1463A7C925814A85B96261A7 /* Raleway-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Raleway-ThinItalic.ttf"; path = "../assets/fonts/Raleway,Roboto/Raleway/static/Raleway-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B36AF0DD488D4DBB91B5882E /* Roboto-Italic-VariableFont_wdth,wght.ttf */ = {isa = PBXFileReference; name = "Roboto-Italic-VariableFont_wdth,wght.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/Roboto-Italic-VariableFont_wdth,wght.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2D9BC390B9B147869C2139FD /* Roboto-VariableFont_wdth,wght.ttf */ = {isa = PBXFileReference; name = "Roboto-VariableFont_wdth,wght.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/Roboto-VariableFont_wdth,wght.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		4A122C7FB1E04A6CA4F3DB7F /* Roboto-Black.ttf */ = {isa = PBXFileReference; name = "Roboto-Black.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		794C5EC08D724AEAAE006277 /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-BlackItalic.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		14FEB4D140054B9195611328 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; name = "Roboto-Bold.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2E0A5E4C94044AF787B50E9D /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-BoldItalic.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		774578E9BA0E4C5C9C2E3344 /* Roboto-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Roboto-ExtraBold.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		01D088B6A2724EFC8313789F /* Roboto-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-ExtraBoldItalic.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1314F37C2D2E4B50A091932B /* Roboto-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Roboto-ExtraLight.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BB5B8F8D30CC466EBA3113FE /* Roboto-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-ExtraLightItalic.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		CC44B048CAD24829898C0C4C /* Roboto-Italic.ttf */ = {isa = PBXFileReference; name = "Roboto-Italic.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7C7341933D8045ACBD8BB716 /* Roboto-Light.ttf */ = {isa = PBXFileReference; name = "Roboto-Light.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		42160F2001AB4DFE95D9EC9B /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-LightItalic.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		16EB8272F8804308A343FBEE /* Roboto-Medium.ttf */ = {isa = PBXFileReference; name = "Roboto-Medium.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2A07AA50C573404991A7D292 /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-MediumItalic.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EDF86FF5A5914145B6F432A2 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; name = "Roboto-Regular.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		3CC57748746045B3800089BE /* Roboto-SemiBold.ttf */ = {isa = PBXFileReference; name = "Roboto-SemiBold.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1B7135C59C45403AB4FE58E2 /* Roboto-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-SemiBoldItalic.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8E0AFB58AE4C49E6B2952E12 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; name = "Roboto-Thin.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B3F7E5C536264BF3AA96DA15 /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Roboto-ThinItalic.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1A909838AC8F4909A3E303A3 /* Roboto_Condensed-Black.ttf */ = {isa = PBXFileReference; name = "Roboto_Condensed-Black.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto_Condensed-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		890F7F7A9CC949D2B267C766 /* Roboto_Condensed-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Roboto_Condensed-BlackItalic.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto_Condensed-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1AEA88BB176E485CB7935A2B /* Roboto_Condensed-Bold.ttf */ = {isa = PBXFileReference; name = "Roboto_Condensed-Bold.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto_Condensed-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8B0C51E9FDE147EA82B34427 /* Roboto_Condensed-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Roboto_Condensed-BoldItalic.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto_Condensed-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		06E28E839C8F4F838CA5DD3E /* Roboto_Condensed-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Roboto_Condensed-ExtraBold.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto_Condensed-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		80ACD2276EFD413383C28303 /* Roboto_Condensed-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "Roboto_Condensed-ExtraBoldItalic.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto_Condensed-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		092D4B994EED4276BA382FDB /* Roboto_Condensed-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Roboto_Condensed-ExtraLight.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto_Condensed-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B4A1CD5FC1CD4FD8B90DC492 /* Roboto_Condensed-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "Roboto_Condensed-ExtraLightItalic.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto_Condensed-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		9FB802C0705948338016961D /* Roboto_Condensed-Italic.ttf */ = {isa = PBXFileReference; name = "Roboto_Condensed-Italic.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto_Condensed-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0B96015FE8984704A6E5941D /* Roboto_Condensed-Light.ttf */ = {isa = PBXFileReference; name = "Roboto_Condensed-Light.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto_Condensed-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0E1D7CFC907E4482B4149498 /* Roboto_Condensed-LightItalic.ttf */ = {isa = PBXFileReference; name = "Roboto_Condensed-LightItalic.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto_Condensed-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		04188FE9846041C4A928C2D0 /* Roboto_Condensed-Medium.ttf */ = {isa = PBXFileReference; name = "Roboto_Condensed-Medium.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto_Condensed-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DB906D5BEE0D4487B87E59C2 /* Roboto_Condensed-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Roboto_Condensed-MediumItalic.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto_Condensed-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		027D86CA7B354CCAA5764320 /* Roboto_Condensed-Regular.ttf */ = {isa = PBXFileReference; name = "Roboto_Condensed-Regular.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto_Condensed-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D618F6EFC7C741B5BFAAA7A4 /* Roboto_Condensed-SemiBold.ttf */ = {isa = PBXFileReference; name = "Roboto_Condensed-SemiBold.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto_Condensed-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6A7E04BBCAB4477B8384EB59 /* Roboto_Condensed-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Roboto_Condensed-SemiBoldItalic.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto_Condensed-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		254B0564F3A14448B35C7EAA /* Roboto_Condensed-Thin.ttf */ = {isa = PBXFileReference; name = "Roboto_Condensed-Thin.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto_Condensed-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		BEFB49436E444D52B2277017 /* Roboto_Condensed-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Roboto_Condensed-ThinItalic.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto_Condensed-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7041E6593E98461795E683BB /* Roboto_SemiCondensed-Black.ttf */ = {isa = PBXFileReference; name = "Roboto_SemiCondensed-Black.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto_SemiCondensed-Black.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		39C49F209DD74320A18DEEF1 /* Roboto_SemiCondensed-BlackItalic.ttf */ = {isa = PBXFileReference; name = "Roboto_SemiCondensed-BlackItalic.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto_SemiCondensed-BlackItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		B6EB329AFA8142B3AE77BBA9 /* Roboto_SemiCondensed-Bold.ttf */ = {isa = PBXFileReference; name = "Roboto_SemiCondensed-Bold.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto_SemiCondensed-Bold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		2292CAE12743489AB8F90C09 /* Roboto_SemiCondensed-BoldItalic.ttf */ = {isa = PBXFileReference; name = "Roboto_SemiCondensed-BoldItalic.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto_SemiCondensed-BoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		850E62920E504081811902D4 /* Roboto_SemiCondensed-ExtraBold.ttf */ = {isa = PBXFileReference; name = "Roboto_SemiCondensed-ExtraBold.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto_SemiCondensed-ExtraBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		0EE5F6D5D5F44A9BAA25B71B /* Roboto_SemiCondensed-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; name = "Roboto_SemiCondensed-ExtraBoldItalic.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto_SemiCondensed-ExtraBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		09216B0B9DA74CADA68B39E1 /* Roboto_SemiCondensed-ExtraLight.ttf */ = {isa = PBXFileReference; name = "Roboto_SemiCondensed-ExtraLight.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto_SemiCondensed-ExtraLight.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		8A5E7B7B29E149CAAA694ABF /* Roboto_SemiCondensed-ExtraLightItalic.ttf */ = {isa = PBXFileReference; name = "Roboto_SemiCondensed-ExtraLightItalic.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto_SemiCondensed-ExtraLightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		ED06FEB0C4CD49509DB62027 /* Roboto_SemiCondensed-Italic.ttf */ = {isa = PBXFileReference; name = "Roboto_SemiCondensed-Italic.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto_SemiCondensed-Italic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D34F7C63BE9445E69D1350A8 /* Roboto_SemiCondensed-Light.ttf */ = {isa = PBXFileReference; name = "Roboto_SemiCondensed-Light.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto_SemiCondensed-Light.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7985471770794AD2AC5D2B5E /* Roboto_SemiCondensed-LightItalic.ttf */ = {isa = PBXFileReference; name = "Roboto_SemiCondensed-LightItalic.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto_SemiCondensed-LightItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		466ECBF9407C4DF19AF42374 /* Roboto_SemiCondensed-Medium.ttf */ = {isa = PBXFileReference; name = "Roboto_SemiCondensed-Medium.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto_SemiCondensed-Medium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		DAFC032A69F74FADB47DFB8F /* Roboto_SemiCondensed-MediumItalic.ttf */ = {isa = PBXFileReference; name = "Roboto_SemiCondensed-MediumItalic.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto_SemiCondensed-MediumItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		56AA549AC3994BF4A97DE1A6 /* Roboto_SemiCondensed-Regular.ttf */ = {isa = PBXFileReference; name = "Roboto_SemiCondensed-Regular.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto_SemiCondensed-Regular.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		E365CDE310B84C728338DC44 /* Roboto_SemiCondensed-SemiBold.ttf */ = {isa = PBXFileReference; name = "Roboto_SemiCondensed-SemiBold.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto_SemiCondensed-SemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		1216595C82154BE4BB61DB26 /* Roboto_SemiCondensed-SemiBoldItalic.ttf */ = {isa = PBXFileReference; name = "Roboto_SemiCondensed-SemiBoldItalic.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto_SemiCondensed-SemiBoldItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		90A6672F351B4F74A773D47E /* Roboto_SemiCondensed-Thin.ttf */ = {isa = PBXFileReference; name = "Roboto_SemiCondensed-Thin.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto_SemiCondensed-Thin.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		42E6E102F5524AF795D8D185 /* Roboto_SemiCondensed-ThinItalic.ttf */ = {isa = PBXFileReference; name = "Roboto_SemiCondensed-ThinItalic.ttf"; path = "../assets/fonts/Raleway,Roboto/Roboto/static/Roboto_SemiCondensed-ThinItalic.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		6887F6D912ED4CC594AD27B2 /* OFL.txt */ = {isa = PBXFileReference; name = "OFL.txt"; path = "../assets/fonts/OFL.txt"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		7C3ED970C05A4D4FAF21B8DB /* README.md */ = {isa = PBXFileReference; name = "README.md"; path = "../assets/fonts/README.md"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		A63DC2D5675D43B29B14B7D3 /* README.txt */ = {isa = PBXFileReference; name = "README.txt"; path = "../assets/fonts/README.txt"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		D9A3C5C6F81744DDA8B1014F /* Raleway,Roboto.zip */ = {isa = PBXFileReference; name = "Raleway,Roboto.zip"; path = "../assets/fonts/Raleway,Roboto.zip"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				989C5A4027185B87AC7EF494 /* Pods_telemedamobilepatient_telemedamobilepatientTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6010974DE8FCD421143FE6F7 /* Pods_telemedamobilepatient.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* telemedamobilepatientTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* telemedamobilepatientTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = telemedamobilepatientTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* telemedamobilepatient */ = {
+			isa = PBXGroup;
+			children = (
+				04FBCC0C2E1FF64300BC65ED /* telemedamobilepatient.entitlements */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.mm */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */,
+			);
+			name = telemedamobilepatient;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				8276E7D203B639F60081035C /* Pods_telemedamobilepatient.framework */,
+				3613FBC0F4438FAEB7099935 /* Pods_telemedamobilepatient_telemedamobilepatientTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				043CE5AC2D3A696400023541 /* GoogleService-Info.plist */,
+				13B07FAE1A68108700A75B9A /* telemedamobilepatient */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* telemedamobilepatientTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				7ED95556A75148CD91125740 /* Resources */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* telemedamobilepatient.app */,
+				00E356EE1AD99517003FC87E /* telemedamobilepatientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3B4392A12AC88292D35C810B /* Pods-telemedamobilepatient.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-telemedamobilepatient.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-telemedamobilepatient-telemedamobilepatientTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-telemedamobilepatient-telemedamobilepatientTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7ED95556A75148CD91125740 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				2FAC5E70CD6241A3BCC415F9 /* Raleway-Italic-VariableFont_wght.ttf */,
+				A7E727FCF042419592B9859C /* Raleway-VariableFont_wght.ttf */,
+				B178A4ED2FE94D6983965C65 /* Raleway-Black.ttf */,
+				EE15E5905DEE4398B00652F2 /* Raleway-BlackItalic.ttf */,
+				3B4147E1EE414A508CB364B6 /* Raleway-Bold.ttf */,
+				E3521067F11642198DBE3CB1 /* Raleway-BoldItalic.ttf */,
+				34FE498FE1AC46D099826A5B /* Raleway-ExtraBold.ttf */,
+				9227E3D9CA814CFC9A3C608A /* Raleway-ExtraBoldItalic.ttf */,
+				C95F2024286E41189B1CF970 /* Raleway-ExtraLight.ttf */,
+				FFCCB668CDA943DF847C84EA /* Raleway-ExtraLightItalic.ttf */,
+				89FA445F6EDC4509AE449D9D /* Raleway-Italic.ttf */,
+				44E70209C4C64DCC8BCCDC64 /* Raleway-Light.ttf */,
+				E1B38D866EF942FD81E9637D /* Raleway-LightItalic.ttf */,
+				9EB2F0D82A1F461DB97736C2 /* Raleway-Medium.ttf */,
+				6C01033CC56945C4A6F5E349 /* Raleway-MediumItalic.ttf */,
+				75A84A6DFDAD4190BDE88A08 /* Raleway-Regular.ttf */,
+				53A8DA32203E4350A3824D39 /* Raleway-SemiBold.ttf */,
+				B58B66C13D124363A6A4D80A /* Raleway-SemiBoldItalic.ttf */,
+				0CA5C9C40AA44B39936C5389 /* Raleway-Thin.ttf */,
+				1463A7C925814A85B96261A7 /* Raleway-ThinItalic.ttf */,
+				B36AF0DD488D4DBB91B5882E /* Roboto-Italic-VariableFont_wdth,wght.ttf */,
+				2D9BC390B9B147869C2139FD /* Roboto-VariableFont_wdth,wght.ttf */,
+				4A122C7FB1E04A6CA4F3DB7F /* Roboto-Black.ttf */,
+				794C5EC08D724AEAAE006277 /* Roboto-BlackItalic.ttf */,
+				14FEB4D140054B9195611328 /* Roboto-Bold.ttf */,
+				2E0A5E4C94044AF787B50E9D /* Roboto-BoldItalic.ttf */,
+				774578E9BA0E4C5C9C2E3344 /* Roboto-ExtraBold.ttf */,
+				01D088B6A2724EFC8313789F /* Roboto-ExtraBoldItalic.ttf */,
+				1314F37C2D2E4B50A091932B /* Roboto-ExtraLight.ttf */,
+				BB5B8F8D30CC466EBA3113FE /* Roboto-ExtraLightItalic.ttf */,
+				CC44B048CAD24829898C0C4C /* Roboto-Italic.ttf */,
+				7C7341933D8045ACBD8BB716 /* Roboto-Light.ttf */,
+				42160F2001AB4DFE95D9EC9B /* Roboto-LightItalic.ttf */,
+				16EB8272F8804308A343FBEE /* Roboto-Medium.ttf */,
+				2A07AA50C573404991A7D292 /* Roboto-MediumItalic.ttf */,
+				EDF86FF5A5914145B6F432A2 /* Roboto-Regular.ttf */,
+				3CC57748746045B3800089BE /* Roboto-SemiBold.ttf */,
+				1B7135C59C45403AB4FE58E2 /* Roboto-SemiBoldItalic.ttf */,
+				8E0AFB58AE4C49E6B2952E12 /* Roboto-Thin.ttf */,
+				B3F7E5C536264BF3AA96DA15 /* Roboto-ThinItalic.ttf */,
+				1A909838AC8F4909A3E303A3 /* Roboto_Condensed-Black.ttf */,
+				890F7F7A9CC949D2B267C766 /* Roboto_Condensed-BlackItalic.ttf */,
+				1AEA88BB176E485CB7935A2B /* Roboto_Condensed-Bold.ttf */,
+				8B0C51E9FDE147EA82B34427 /* Roboto_Condensed-BoldItalic.ttf */,
+				06E28E839C8F4F838CA5DD3E /* Roboto_Condensed-ExtraBold.ttf */,
+				80ACD2276EFD413383C28303 /* Roboto_Condensed-ExtraBoldItalic.ttf */,
+				092D4B994EED4276BA382FDB /* Roboto_Condensed-ExtraLight.ttf */,
+				B4A1CD5FC1CD4FD8B90DC492 /* Roboto_Condensed-ExtraLightItalic.ttf */,
+				9FB802C0705948338016961D /* Roboto_Condensed-Italic.ttf */,
+				0B96015FE8984704A6E5941D /* Roboto_Condensed-Light.ttf */,
+				0E1D7CFC907E4482B4149498 /* Roboto_Condensed-LightItalic.ttf */,
+				04188FE9846041C4A928C2D0 /* Roboto_Condensed-Medium.ttf */,
+				DB906D5BEE0D4487B87E59C2 /* Roboto_Condensed-MediumItalic.ttf */,
+				027D86CA7B354CCAA5764320 /* Roboto_Condensed-Regular.ttf */,
+				D618F6EFC7C741B5BFAAA7A4 /* Roboto_Condensed-SemiBold.ttf */,
+				6A7E04BBCAB4477B8384EB59 /* Roboto_Condensed-SemiBoldItalic.ttf */,
+				254B0564F3A14448B35C7EAA /* Roboto_Condensed-Thin.ttf */,
+				BEFB49436E444D52B2277017 /* Roboto_Condensed-ThinItalic.ttf */,
+				7041E6593E98461795E683BB /* Roboto_SemiCondensed-Black.ttf */,
+				39C49F209DD74320A18DEEF1 /* Roboto_SemiCondensed-BlackItalic.ttf */,
+				B6EB329AFA8142B3AE77BBA9 /* Roboto_SemiCondensed-Bold.ttf */,
+				2292CAE12743489AB8F90C09 /* Roboto_SemiCondensed-BoldItalic.ttf */,
+				850E62920E504081811902D4 /* Roboto_SemiCondensed-ExtraBold.ttf */,
+				0EE5F6D5D5F44A9BAA25B71B /* Roboto_SemiCondensed-ExtraBoldItalic.ttf */,
+				09216B0B9DA74CADA68B39E1 /* Roboto_SemiCondensed-ExtraLight.ttf */,
+				8A5E7B7B29E149CAAA694ABF /* Roboto_SemiCondensed-ExtraLightItalic.ttf */,
+				ED06FEB0C4CD49509DB62027 /* Roboto_SemiCondensed-Italic.ttf */,
+				D34F7C63BE9445E69D1350A8 /* Roboto_SemiCondensed-Light.ttf */,
+				7985471770794AD2AC5D2B5E /* Roboto_SemiCondensed-LightItalic.ttf */,
+				466ECBF9407C4DF19AF42374 /* Roboto_SemiCondensed-Medium.ttf */,
+				DAFC032A69F74FADB47DFB8F /* Roboto_SemiCondensed-MediumItalic.ttf */,
+				56AA549AC3994BF4A97DE1A6 /* Roboto_SemiCondensed-Regular.ttf */,
+				E365CDE310B84C728338DC44 /* Roboto_SemiCondensed-SemiBold.ttf */,
+				1216595C82154BE4BB61DB26 /* Roboto_SemiCondensed-SemiBoldItalic.ttf */,
+				90A6672F351B4F74A773D47E /* Roboto_SemiCondensed-Thin.ttf */,
+				42E6E102F5524AF795D8D185 /* Roboto_SemiCondensed-ThinItalic.ttf */,
+				6887F6D912ED4CC594AD27B2 /* OFL.txt */,
+				7C3ED970C05A4D4FAF21B8DB /* README.md */,
+				A63DC2D5675D43B29B14B7D3 /* README.txt */,
+				D9A3C5C6F81744DDA8B1014F /* Raleway,Roboto.zip */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* telemedamobilepatientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "telemedamobilepatientTests" */;
+			buildPhases = (
+				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */,
+				F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = telemedamobilepatientTests;
+			productName = telemedamobilepatientTests;
+			productReference = 00E356EE1AD99517003FC87E /* telemedamobilepatientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* telemedamobilepatient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "telemedamobilepatient" */;
+			buildPhases = (
+				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */,
+				E235C05ADACE081382539298 /* [CP] Copy Pods Resources */,
+				B1C284A63DA7E6298E2833E7 /* [CP-User] [RNFB] Core Configuration */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = telemedamobilepatient;
+			productName = telemedamobilepatient;
+			productReference = 13B07F961A680F5B00A75B9A /* telemedamobilepatient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "telemedamobilepatient" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* telemedamobilepatient */,
+				00E356ED1AD99517003FC87E /* telemedamobilepatientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				043CE5AD2D3A696400023541 /* GoogleService-Info.plist in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				AE8F2C8F032AE1548D2121CF /* PrivacyInfo.xcprivacy in Resources */,
+				4FEF1B6EB85A44FA952792B0 /* Raleway-Italic-VariableFont_wght.ttf in Resources */,
+				B2ED36E0D8304487BF224349 /* Raleway-VariableFont_wght.ttf in Resources */,
+				7F4833D6CBF142E0AAD0EE5E /* Raleway-Black.ttf in Resources */,
+				D94614F83F464BFE813C8DA3 /* Raleway-BlackItalic.ttf in Resources */,
+				F8B1AFD38E104F0DB8BFD427 /* Raleway-Bold.ttf in Resources */,
+				5DECCE8F08544C558261DA2B /* Raleway-BoldItalic.ttf in Resources */,
+				B2536C8CAE98416983968733 /* Raleway-ExtraBold.ttf in Resources */,
+				6C5544DC58514C1A9A5F0B1F /* Raleway-ExtraBoldItalic.ttf in Resources */,
+				8714093BCB774A7AA1286E8A /* Raleway-ExtraLight.ttf in Resources */,
+				EB2DCAE9842A409486BDF6A0 /* Raleway-ExtraLightItalic.ttf in Resources */,
+				99086988CBF445638DDD83D4 /* Raleway-Italic.ttf in Resources */,
+				1B68993FF90D42E3A7DE9DBF /* Raleway-Light.ttf in Resources */,
+				3672D5C5569A4BB78A581E55 /* Raleway-LightItalic.ttf in Resources */,
+				DA90ABA5E61146AAB3C7F3AC /* Raleway-Medium.ttf in Resources */,
+				4B9B7903651442F1B42B2017 /* Raleway-MediumItalic.ttf in Resources */,
+				3DFE96DF91F74856AAF27858 /* Raleway-Regular.ttf in Resources */,
+				A55335BA8224403F9031F5F3 /* Raleway-SemiBold.ttf in Resources */,
+				168647F44B8D43A586F01458 /* Raleway-SemiBoldItalic.ttf in Resources */,
+				73671B85EC524B5AAF34046B /* Raleway-Thin.ttf in Resources */,
+				239BA29965384CFE95AE9620 /* Raleway-ThinItalic.ttf in Resources */,
+				10DBD54DCA054BB9B967FB0B /* Roboto-Italic-VariableFont_wdth,wght.ttf in Resources */,
+				92F9F4DD674F4B20A01BF181 /* Roboto-VariableFont_wdth,wght.ttf in Resources */,
+				68D5805826904717AB05DCCD /* Roboto-Black.ttf in Resources */,
+				8BEE9B1895774161B7806141 /* Roboto-BlackItalic.ttf in Resources */,
+				0898AC63452B431B9CFDEBDA /* Roboto-Bold.ttf in Resources */,
+				537F1E5037204C8AA8E010B7 /* Roboto-BoldItalic.ttf in Resources */,
+				50576C2E80A34304A2448392 /* Roboto-ExtraBold.ttf in Resources */,
+				6D682C7CC30A4768A73928B4 /* Roboto-ExtraBoldItalic.ttf in Resources */,
+				8872609D2EE94E1DB09C6632 /* Roboto-ExtraLight.ttf in Resources */,
+				EE77F74E323045C6803F4DAE /* Roboto-ExtraLightItalic.ttf in Resources */,
+				D8654C31612D49F4AA425736 /* Roboto-Italic.ttf in Resources */,
+				8B0181F1809F46F4BC9A7C31 /* Roboto-Light.ttf in Resources */,
+				DF7945CA9F3842259C8A1B71 /* Roboto-LightItalic.ttf in Resources */,
+				8B57620252624E00A6AC9D03 /* Roboto-Medium.ttf in Resources */,
+				F88F14A9B2224C34AC354E0E /* Roboto-MediumItalic.ttf in Resources */,
+				CFFFE5442CDF426091780950 /* Roboto-Regular.ttf in Resources */,
+				377DF2C529DE4E6EBC299E2B /* Roboto-SemiBold.ttf in Resources */,
+				2EAA5AF9504248E1B8CD8ADF /* Roboto-SemiBoldItalic.ttf in Resources */,
+				3830E7FC6D254102BCA03C03 /* Roboto-Thin.ttf in Resources */,
+				BAC62CB9EB8947A2BCC62958 /* Roboto-ThinItalic.ttf in Resources */,
+				AA2B00452CBD4CBAAA966357 /* Roboto_Condensed-Black.ttf in Resources */,
+				CFD100A1A5B04D3EA1F999B5 /* Roboto_Condensed-BlackItalic.ttf in Resources */,
+				EF418DDA143E4B6A807767DD /* Roboto_Condensed-Bold.ttf in Resources */,
+				1FA8E5AB4EC14642B9061503 /* Roboto_Condensed-BoldItalic.ttf in Resources */,
+				298D57E1B7064A62BD6CDFDB /* Roboto_Condensed-ExtraBold.ttf in Resources */,
+				4EDA4F3267D7437AB4C1D78B /* Roboto_Condensed-ExtraBoldItalic.ttf in Resources */,
+				16A2D97C189A4EBA9EF5DD59 /* Roboto_Condensed-ExtraLight.ttf in Resources */,
+				1405248094274259A4236E90 /* Roboto_Condensed-ExtraLightItalic.ttf in Resources */,
+				10A6F7B05D744A1B85A24584 /* Roboto_Condensed-Italic.ttf in Resources */,
+				4A71010EBF3F46E98720E23B /* Roboto_Condensed-Light.ttf in Resources */,
+				CF606EBABDB24EE193010194 /* Roboto_Condensed-LightItalic.ttf in Resources */,
+				F8377DADC52B49859958244C /* Roboto_Condensed-Medium.ttf in Resources */,
+				0B4BDAF3B9A24A8FA1BB385E /* Roboto_Condensed-MediumItalic.ttf in Resources */,
+				37AEB586CD9F437B98C51639 /* Roboto_Condensed-Regular.ttf in Resources */,
+				A947976124024C678142BA3A /* Roboto_Condensed-SemiBold.ttf in Resources */,
+				16972970CE1448ECABF50EF9 /* Roboto_Condensed-SemiBoldItalic.ttf in Resources */,
+				40271B5AC6254D00A9585C52 /* Roboto_Condensed-Thin.ttf in Resources */,
+				D749999973754208AB6DF40A /* Roboto_Condensed-ThinItalic.ttf in Resources */,
+				D7142FCDD7FE4F2CB32DE0AF /* Roboto_SemiCondensed-Black.ttf in Resources */,
+				592A96AD60BB429EBE5B286F /* Roboto_SemiCondensed-BlackItalic.ttf in Resources */,
+				A0519808E791406AACE8FC8B /* Roboto_SemiCondensed-Bold.ttf in Resources */,
+				CDF98F27DC4C4F39B56E1A27 /* Roboto_SemiCondensed-BoldItalic.ttf in Resources */,
+				16560B39584F498A85EA1C08 /* Roboto_SemiCondensed-ExtraBold.ttf in Resources */,
+				950AD54E4118434B8EFC9E59 /* Roboto_SemiCondensed-ExtraBoldItalic.ttf in Resources */,
+				DDE420D227404419B4097CCA /* Roboto_SemiCondensed-ExtraLight.ttf in Resources */,
+				E297FCF1E040483D9958A040 /* Roboto_SemiCondensed-ExtraLightItalic.ttf in Resources */,
+				4E7AD6B5F6C94C0EA9330ED6 /* Roboto_SemiCondensed-Italic.ttf in Resources */,
+				40797BD4D5F647718CDD0D3E /* Roboto_SemiCondensed-Light.ttf in Resources */,
+				193F9E9FB4C944F2AD7D99B1 /* Roboto_SemiCondensed-LightItalic.ttf in Resources */,
+				886AF8C3B39F42E0B8CA1C4A /* Roboto_SemiCondensed-Medium.ttf in Resources */,
+				3BEC5BB852DF46328F3BCBC9 /* Roboto_SemiCondensed-MediumItalic.ttf in Resources */,
+				A47EBBEA5F41406AAE82B137 /* Roboto_SemiCondensed-Regular.ttf in Resources */,
+				22E606E980B64D20BEE81615 /* Roboto_SemiCondensed-SemiBold.ttf in Resources */,
+				B8BE130944D04681A6645FC1 /* Roboto_SemiCondensed-SemiBoldItalic.ttf in Resources */,
+				9FE0E8776F964AF7AB483861 /* Roboto_SemiCondensed-Thin.ttf in Resources */,
+				1A0DBB03895F4A4E9A6FC9A1 /* Roboto_SemiCondensed-ThinItalic.ttf in Resources */,
+				4D02E9EBA938406F8F29BF7C /* OFL.txt in Resources */,
+				76FBE9C3C5B74E999822D30F /* README.md in Resources */,
+				0F58BE95B87F4E4C8464DC59 /* README.txt in Resources */,
+				D6D26EB077A94EECAAECD345 /* Raleway,Roboto.zip in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/.xcode.env.local",
+				"$(SRCROOT)/.xcode.env",
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nWITH_ENVIRONMENT=\"$REACT_NATIVE_PATH/scripts/xcode/with-environment.sh\"\nREACT_NATIVE_XCODE=\"$REACT_NATIVE_PATH/scripts/react-native-xcode.sh\"\n\n/bin/sh -c \"$WITH_ENVIRONMENT $REACT_NATIVE_XCODE\"\n";
+		};
+		00EEFC60759A1932668264C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-telemedamobilepatient/Pods-telemedamobilepatient-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-telemedamobilepatient/Pods-telemedamobilepatient-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-telemedamobilepatient/Pods-telemedamobilepatient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-telemedamobilepatient-telemedamobilepatientTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1C284A63DA7E6298E2833E7 /* [CP-User] [RNFB] Core Configuration */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = "[CP-User] [RNFB] Core Configuration";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/usr/bin/env bash\n#\n# Copyright (c) 2016-present Invertase Limited & Contributors\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this library except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#   http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n#\n\n##########################################################################\n##########################################################################\n#\n#  NOTE THAT IF YOU CHANGE THIS FILE YOU MUST RUN pod install AFTERWARDS\n#\n#  This file is installed as an Xcode build script in the project file\n#  by cocoapods, and you will not see your changes until you pod install\n#\n##########################################################################\n##########################################################################\n\nset -e\n\n_MAX_LOOKUPS=2;\n_SEARCH_RESULT=''\n_RN_ROOT_EXISTS=''\n_CURRENT_LOOKUPS=1\n_JSON_ROOT=\"'react-native'\"\n_JSON_FILE_NAME='firebase.json'\n_JSON_OUTPUT_BASE64='e30=' # { }\n_CURRENT_SEARCH_DIR=${PROJECT_DIR}\n_PLIST_BUDDY=/usr/libexec/PlistBuddy\n_TARGET_PLIST=\"${BUILT_PRODUCTS_DIR}/${INFOPLIST_PATH}\"\n_DSYM_PLIST=\"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Info.plist\"\n\n# plist arrays\n_PLIST_ENTRY_KEYS=()\n_PLIST_ENTRY_TYPES=()\n_PLIST_ENTRY_VALUES=()\n\nfunction setPlistValue {\n  echo \"info:      setting plist entry '$1' of type '$2' in file '$4'\"\n  ${_PLIST_BUDDY} -c \"Add :$1 $2 '$3'\" $4 || echo \"info:      '$1' already exists\"\n}\n\nfunction getFirebaseJsonKeyValue () {\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    ruby -Ku -e \"require 'rubygems';require 'json'; output=JSON.parse('$1'); puts output[$_JSON_ROOT]['$2']\"\n  else\n    echo \"\"\n  fi;\n}\n\nfunction jsonBoolToYesNo () {\n  if [[ $1 == \"false\" ]]; then\n    echo \"NO\"\n  elif [[ $1 == \"true\" ]]; then\n    echo \"YES\"\n  else echo \"NO\"\n  fi\n}\n\necho \"info: -> RNFB build script started\"\necho \"info: 1) Locating ${_JSON_FILE_NAME} file:\"\n\nif [[ -z ${_CURRENT_SEARCH_DIR} ]]; then\n  _CURRENT_SEARCH_DIR=$(pwd)\nfi;\n\nwhile true; do\n  _CURRENT_SEARCH_DIR=$(dirname \"$_CURRENT_SEARCH_DIR\")\n  if [[ \"$_CURRENT_SEARCH_DIR\" == \"/\" ]] || [[ ${_CURRENT_LOOKUPS} -gt ${_MAX_LOOKUPS} ]]; then break; fi;\n  echo \"info:      ($_CURRENT_LOOKUPS of $_MAX_LOOKUPS) Searching in '$_CURRENT_SEARCH_DIR' for a ${_JSON_FILE_NAME} file.\"\n  _SEARCH_RESULT=$(find \"$_CURRENT_SEARCH_DIR\" -maxdepth 2 -name ${_JSON_FILE_NAME} -print | /usr/bin/head -n 1)\n  if [[ ${_SEARCH_RESULT} ]]; then\n    echo \"info:      ${_JSON_FILE_NAME} found at $_SEARCH_RESULT\"\n    break;\n  fi;\n  _CURRENT_LOOKUPS=$((_CURRENT_LOOKUPS+1))\ndone\n\nif [[ ${_SEARCH_RESULT} ]]; then\n  _JSON_OUTPUT_RAW=$(cat \"${_SEARCH_RESULT}\")\n  _RN_ROOT_EXISTS=$(ruby -Ku -e \"require 'rubygems';require 'json'; output=JSON.parse('$_JSON_OUTPUT_RAW'); puts output[$_JSON_ROOT]\" || echo '')\n\n  if [[ ${_RN_ROOT_EXISTS} ]]; then\n    if ! python3 --version >/dev/null 2>&1; then echo \"python3 not found, firebase.json file processing error.\" && exit 1; fi\n    _JSON_OUTPUT_BASE64=$(python3 -c 'import json,sys,base64;print(base64.b64encode(bytes(json.dumps(json.loads(open('\"'${_SEARCH_RESULT}'\"', '\"'rb'\"').read())['${_JSON_ROOT}']), '\"'utf-8'\"')).decode())' || echo \"e30=\")\n  fi\n\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n\n  # config.app_data_collection_default_enabled\n  _APP_DATA_COLLECTION_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"app_data_collection_default_enabled\")\n  if [[ $_APP_DATA_COLLECTION_ENABLED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseDataCollectionDefaultEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_APP_DATA_COLLECTION_ENABLED\")\")\n  fi\n\n  # config.analytics_auto_collection_enabled\n  _ANALYTICS_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_auto_collection_enabled\")\n  if [[ $_ANALYTICS_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_COLLECTION\")\")\n  fi\n\n  # config.analytics_collection_deactivated\n  _ANALYTICS_DEACTIVATED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_collection_deactivated\")\n  if [[ $_ANALYTICS_DEACTIVATED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FIREBASE_ANALYTICS_COLLECTION_DEACTIVATED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_DEACTIVATED\")\")\n  fi\n\n  # config.analytics_idfv_collection_enabled\n  _ANALYTICS_IDFV_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_idfv_collection_enabled\")\n  if [[ $_ANALYTICS_IDFV_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_IDFV_COLLECTION_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_IDFV_COLLECTION\")\")\n  fi\n\n  # config.analytics_default_allow_analytics_storage\n  _ANALYTICS_STORAGE=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_default_allow_analytics_storage\")\n  if [[ $_ANALYTICS_STORAGE ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_DEFAULT_ALLOW_ANALYTICS_STORAGE\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_STORAGE\")\")\n  fi\n\n  # config.analytics_default_allow_ad_storage\n  _ANALYTICS_AD_STORAGE=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_default_allow_ad_storage\")\n  if [[ $_ANALYTICS_AD_STORAGE ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_DEFAULT_ALLOW_AD_STORAGE\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AD_STORAGE\")\")\n  fi\n\n  # config.analytics_default_allow_ad_user_data\n  _ANALYTICS_AD_USER_DATA=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_default_allow_ad_user_data\")\n  if [[ $_ANALYTICS_AD_USER_DATA ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_DEFAULT_ALLOW_AD_USER_DATA\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AD_USER_DATA\")\")\n  fi\n\n  # config.analytics_default_allow_ad_personalization_signals\n  _ANALYTICS_PERSONALIZATION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"analytics_default_allow_ad_personalization_signals\")\n  if [[ $_ANALYTICS_PERSONALIZATION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_DEFAULT_ALLOW_AD_PERSONALIZATION_SIGNALS\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_PERSONALIZATION\")\")\n  fi\n\n  # config.analytics_registration_with_ad_network_enabled\n  _ANALYTICS_REGISTRATION_WITH_AD_NETWORK=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"google_analytics_registration_with_ad_network_enabled\")\n  if [[ $_ANALYTICS_REGISTRATION_WITH_AD_NETWORK ]]; then\n    _PLIST_ENTRY_KEYS+=(\"GOOGLE_ANALYTICS_REGISTRATION_WITH_AD_NETWORK_ENABLED\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_REGISTRATION_WITH_AD_NETWORK\")\")\n  fi\n\n  # config.google_analytics_automatic_screen_reporting_enabled\n  _ANALYTICS_AUTO_SCREEN_REPORTING=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"google_analytics_automatic_screen_reporting_enabled\")\n  if [[ $_ANALYTICS_AUTO_SCREEN_REPORTING ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseAutomaticScreenReportingEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_ANALYTICS_AUTO_SCREEN_REPORTING\")\")\n  fi\n\n  # config.perf_auto_collection_enabled\n  _PERF_AUTO_COLLECTION=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_auto_collection_enabled\")\n  if [[ $_PERF_AUTO_COLLECTION ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_enabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_AUTO_COLLECTION\")\")\n  fi\n\n  # config.perf_collection_deactivated\n  _PERF_DEACTIVATED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"perf_collection_deactivated\")\n  if [[ $_PERF_DEACTIVATED ]]; then\n    _PLIST_ENTRY_KEYS+=(\"firebase_performance_collection_deactivated\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_PERF_DEACTIVATED\")\")\n  fi\n\n  # config.messaging_auto_init_enabled\n  _MESSAGING_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"messaging_auto_init_enabled\")\n  if [[ $_MESSAGING_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseMessagingAutoInitEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_MESSAGING_AUTO_INIT\")\")\n  fi\n\n  # config.in_app_messaging_auto_colllection_enabled\n  _FIAM_AUTO_INIT=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"in_app_messaging_auto_collection_enabled\")\n  if [[ $_FIAM_AUTO_INIT ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseInAppMessagingAutomaticDataCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_FIAM_AUTO_INIT\")\")\n  fi\n\n  # config.app_check_token_auto_refresh\n  _APP_CHECK_TOKEN_AUTO_REFRESH=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"app_check_token_auto_refresh\")\n  if [[ $_APP_CHECK_TOKEN_AUTO_REFRESH ]]; then\n    _PLIST_ENTRY_KEYS+=(\"FirebaseAppCheckTokenAutoRefreshEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"$(jsonBoolToYesNo \"$_APP_CHECK_TOKEN_AUTO_REFRESH\")\")\n  fi\n\n  # config.crashlytics_disable_auto_disabler - undocumented for now - mainly for debugging, document if becomes useful\n  _CRASHLYTICS_AUTO_DISABLE_ENABLED=$(getFirebaseJsonKeyValue \"$_JSON_OUTPUT_RAW\" \"crashlytics_disable_auto_disabler\")\n  if [[ $_CRASHLYTICS_AUTO_DISABLE_ENABLED == \"true\" ]]; then\n    echo \"Disabled Crashlytics auto disabler.\" # do nothing\n  else\n    _PLIST_ENTRY_KEYS+=(\"FirebaseCrashlyticsCollectionEnabled\")\n    _PLIST_ENTRY_TYPES+=(\"bool\")\n    _PLIST_ENTRY_VALUES+=(\"NO\")\n  fi\nelse\n  _PLIST_ENTRY_KEYS+=(\"firebase_json_raw\")\n  _PLIST_ENTRY_TYPES+=(\"string\")\n  _PLIST_ENTRY_VALUES+=(\"$_JSON_OUTPUT_BASE64\")\n  echo \"warning:   A firebase.json file was not found, whilst this file is optional it is recommended to include it to configure firebase services in React Native Firebase.\"\nfi;\n\necho \"info: 2) Injecting Info.plist entries: \"\n\n# Log out the keys we're adding\nfor i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n  echo \"    ->  $i) ${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\"\ndone\n\nfor plist in \"${_TARGET_PLIST}\" \"${_DSYM_PLIST}\" ; do\n  if [[ -f \"${plist}\" ]]; then\n\n    # paths with spaces break the call to setPlistValue. temporarily modify\n    # the shell internal field separator variable (IFS), which normally\n    # includes spaces, to consist only of line breaks\n    oldifs=$IFS\n    IFS=\"\n\"\n\n    for i in \"${!_PLIST_ENTRY_KEYS[@]}\"; do\n      setPlistValue \"${_PLIST_ENTRY_KEYS[$i]}\" \"${_PLIST_ENTRY_TYPES[$i]}\" \"${_PLIST_ENTRY_VALUES[$i]}\" \"${plist}\"\n    done\n\n    # restore the original internal field separator value\n    IFS=$oldifs\n  else\n    echo \"warning:   A Info.plist build output file was not found (${plist})\"\n  fi\ndone\n\necho \"info: <- RNFB build script finished\"\n";
+		};
+		C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-telemedamobilepatient-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C59DA0FBD6956966B86A3779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-telemedamobilepatient-telemedamobilepatientTests/Pods-telemedamobilepatient-telemedamobilepatientTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-telemedamobilepatient-telemedamobilepatientTests/Pods-telemedamobilepatient-telemedamobilepatientTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-telemedamobilepatient-telemedamobilepatientTests/Pods-telemedamobilepatient-telemedamobilepatientTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-telemedamobilepatient/Pods-telemedamobilepatient-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-telemedamobilepatient/Pods-telemedamobilepatient-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-telemedamobilepatient/Pods-telemedamobilepatient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-telemedamobilepatient-telemedamobilepatientTests/Pods-telemedamobilepatient-telemedamobilepatientTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-telemedamobilepatient-telemedamobilepatientTests/Pods-telemedamobilepatient-telemedamobilepatientTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-telemedamobilepatient-telemedamobilepatientTests/Pods-telemedamobilepatient-telemedamobilepatientTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* telemedamobilepatientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* telemedamobilepatient */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-telemedamobilepatient-telemedamobilepatientTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = telemedamobilepatientTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/telemedamobilepatient.app/telemedamobilepatient";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-telemedamobilepatient-telemedamobilepatientTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = telemedamobilepatientTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/telemedamobilepatient.app/telemedamobilepatient";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-telemedamobilepatient.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = telemedamobilepatient/telemedamobilepatient.entitlements;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_TEAM = 4Q376GL76V;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = telemedamobilepatient/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SignalADoc;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 5.0.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.signaladoc.patient;
+				PRODUCT_NAME = telemedamobilepatient;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-telemedamobilepatient.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = telemedamobilepatient/telemedamobilepatient.entitlements;
+				CURRENT_PROJECT_VERSION = 6;
+				DEVELOPMENT_TEAM = 4Q376GL76V;
+				INFOPLIST_FILE = telemedamobilepatient/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SignalADoc;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.healthcare-fitness";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 5.0.1;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				"PRODUCT_BUNDLE_IDENTIFIER[sdk=iphoneos*]" = com.signaladoc.patient;
+				PRODUCT_NAME = telemedamobilepatient;
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers/react/nativemodule/core",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers/platform/ios",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-Fabric/React_Fabric.framework/Headers/react/renderer/components/view/platform/cxx",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-NativeModulesApple/React_NativeModulesApple.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers/react/renderer/graphics/platform/ios",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				OTHER_LDFLAGS = "$(inherited)  ";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				USE_HERMES = true;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++20";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon/ReactCommon.framework/Headers/react/nativemodule/core",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/ReactCommon-Samples/ReactCommon_Samples.framework/Headers/platform/ios",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-Fabric/React_Fabric.framework/Headers/react/renderer/components/view/platform/cxx",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-NativeModulesApple/React_NativeModulesApple.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers",
+					"${PODS_CONFIGURATION_BUILD_DIR}/React-graphics/React_graphics.framework/Headers/react/renderer/graphics/platform/ios",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-DFOLLY_NO_CONFIG",
+					"-DFOLLY_MOBILE=1",
+					"-DFOLLY_USE_LIBCPP=1",
+					"-DFOLLY_CFG_NO_COROUTINES=1",
+					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
+				);
+				OTHER_LDFLAGS = "$(inherited)  ";
+				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
+				SDKROOT = iphoneos;
+				USE_HERMES = true;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "telemedamobilepatientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "telemedamobilepatient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "telemedamobilepatient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

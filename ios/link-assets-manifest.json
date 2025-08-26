@@ -1,0 +1,325 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/OFL.txt",
+      "sha1": "7c62c0047419f600fdc74d58862cafb9ed538d78"
+    },
+    {
+      "path": "assets/fonts/README.md",
+      "sha1": "21a18aa9873e57fdc385bee15724bbecf5ab4a18"
+    },
+    {
+      "path": "assets/fonts/README.txt",
+      "sha1": "fcd802b39da63950430174a9e2bc13224f4025cc"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Raleway/Raleway-Italic-VariableFont_wght.ttf",
+      "sha1": "c110ec8b5cc154b246f2de58f63806394719a0f4"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Raleway/Raleway-VariableFont_wght.ttf",
+      "sha1": "949559e22b9cc762536cc880bc2161dc2dc18baa"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Raleway/static/Raleway-Black.ttf",
+      "sha1": "008ce784e9f5a60f64677b8798a9bd7ccb253ba5"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Raleway/static/Raleway-BlackItalic.ttf",
+      "sha1": "a2353e12494023dae75278a08e57f927165a8cfc"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Raleway/static/Raleway-Bold.ttf",
+      "sha1": "ab21b55115bd50a57f3a95ec4eda834eee675d04"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Raleway/static/Raleway-BoldItalic.ttf",
+      "sha1": "a0e2a3e8f199cebceaf86c708642d46af8643537"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Raleway/static/Raleway-ExtraBold.ttf",
+      "sha1": "4205b551172092ee7b23cc884aa9cddaef97e624"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Raleway/static/Raleway-ExtraBoldItalic.ttf",
+      "sha1": "12f8bc3ac0a462a05089b0c9302aec01eec05ac0"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Raleway/static/Raleway-ExtraLight.ttf",
+      "sha1": "e04f6b8ff5c96fff97490372919e8f29a56f7e23"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Raleway/static/Raleway-ExtraLightItalic.ttf",
+      "sha1": "12085b262f6ee4866e0c02df3f1699ae980734f1"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Raleway/static/Raleway-Italic.ttf",
+      "sha1": "f00254b9b2642580b8ea13b85a9a0a385da6c897"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Raleway/static/Raleway-Light.ttf",
+      "sha1": "e18f4467e6ddb09a6edd1d0c561a4fb360ff7be1"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Raleway/static/Raleway-LightItalic.ttf",
+      "sha1": "8f02718f5afaf034e2d21cb2f5ea850f50503d8d"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Raleway/static/Raleway-Medium.ttf",
+      "sha1": "2e9d4e3f2a0746ec49ed2779992a7b0900fb8302"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Raleway/static/Raleway-MediumItalic.ttf",
+      "sha1": "11ac554029233879564f98b8b68a41df6c620b97"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Raleway/static/Raleway-Regular.ttf",
+      "sha1": "2b673d65ef7a66233c1fb1fd0424ef067a787cca"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Raleway/static/Raleway-SemiBold.ttf",
+      "sha1": "3dd2bfca1944f82e928417d0399b8725b83728aa"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Raleway/static/Raleway-SemiBoldItalic.ttf",
+      "sha1": "d0656209722b362a11563560319ba13bfe4d5492"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Raleway/static/Raleway-Thin.ttf",
+      "sha1": "24ab661e5c643c4c08f7c020fc198669dd746c70"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Raleway/static/Raleway-ThinItalic.ttf",
+      "sha1": "e3f08e6c59b8038cdacfc8f45d93e495d1567b8a"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/Roboto-Italic-VariableFont_wdth,wght.ttf",
+      "sha1": "eb51d6042f676b736a552744a77dc352d92a08e1"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/Roboto-VariableFont_wdth,wght.ttf",
+      "sha1": "6bd9646ab22c0301ce3adbfe8707213a67900404"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto-Black.ttf",
+      "sha1": "d1678489a8d5645f16486ec52d77b651ff0bf327"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto-BlackItalic.ttf",
+      "sha1": "d1e14166c8226143eea1730d92f518cc47d03462"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto-Bold.ttf",
+      "sha1": "508c35dee818addce6cc6d1fb6e42f039da5a7cf"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto-BoldItalic.ttf",
+      "sha1": "03440bfa71172aaa6b8ba6da86ac60d667b55c1e"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto-ExtraBold.ttf",
+      "sha1": "3dbfd71b6fbcfbd8e7ee8a8dd033dc5aaad63249"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto-ExtraBoldItalic.ttf",
+      "sha1": "0c1a0709d9772d20419c1b5868d19631c63861f6"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto-ExtraLight.ttf",
+      "sha1": "df556e64732e5c272349e13cb5f87591a1ae779b"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto-ExtraLightItalic.ttf",
+      "sha1": "1b0b602c97a479fed89900c64a0b9242d459ed19"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto-Italic.ttf",
+      "sha1": "55534e771bbbb6b649746802cabfdeb922b9eb3a"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto-Light.ttf",
+      "sha1": "318b44c0a32848f78bf11d4fbf3355d00647a796"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto-LightItalic.ttf",
+      "sha1": "565cd54ab54fdfa1be7c62fce75048d7ef0737e6"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto-Medium.ttf",
+      "sha1": "fa5192203f85ddb667579e1bdf26f12098bb873b"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto-MediumItalic.ttf",
+      "sha1": "debc1546314dd5655403df6965878d3f8dc41897"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto-Regular.ttf",
+      "sha1": "3bff51436aa7eb995d84cfc592cc63e1316bb400"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto-SemiBold.ttf",
+      "sha1": "9ca139684fe902c8310dd82991648376ac9838db"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto-SemiBoldItalic.ttf",
+      "sha1": "21a14c8c35225cbd714af050086d3b17a1ae5df8"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto-Thin.ttf",
+      "sha1": "8e098a207d2ace83e873d02b76acba903d819f74"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto-ThinItalic.ttf",
+      "sha1": "b20989b4dd1168286dca1f24193fe78f51e60f6b"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto_Condensed-Black.ttf",
+      "sha1": "317f765e1f770c422243ccdd7d0b8cf408c58db4"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto_Condensed-BlackItalic.ttf",
+      "sha1": "c367cbc303fe3adeaad06573145ece206edca674"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto_Condensed-Bold.ttf",
+      "sha1": "b872ba48fedf30d87dd5353b5e4b58285aef964b"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto_Condensed-BoldItalic.ttf",
+      "sha1": "3863e2d95d95e8bebeb15d0519fcf5a65bb35f89"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto_Condensed-ExtraBold.ttf",
+      "sha1": "e409e2cdf444475cafdb76c5ae26721e96483553"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto_Condensed-ExtraBoldItalic.ttf",
+      "sha1": "95500c4ad3305d0843fcce607e0748491f6b74f1"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto_Condensed-ExtraLight.ttf",
+      "sha1": "1cc9dfa74b6f7f11dc088c87b552db211cc3db5a"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto_Condensed-ExtraLightItalic.ttf",
+      "sha1": "cdb48490a752e60e2b15da5be3aec5cd061bdacd"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto_Condensed-Italic.ttf",
+      "sha1": "24b1d43d5a9474855065b0386695797ebca6d1bc"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto_Condensed-Light.ttf",
+      "sha1": "1daf12253cbd45c84a4f3b04d2ccea83d40446cb"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto_Condensed-LightItalic.ttf",
+      "sha1": "5c9b814f3127d42fdc32de6ee147bf044cd00565"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto_Condensed-Medium.ttf",
+      "sha1": "6e28f96625b03352e78420c2971aafa972178e4a"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto_Condensed-MediumItalic.ttf",
+      "sha1": "a4841c5d941a921e5a9947b8d5796b090287239f"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto_Condensed-Regular.ttf",
+      "sha1": "8870afc8d2c6f82cd46dac833e8dc644bf6d771e"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto_Condensed-SemiBold.ttf",
+      "sha1": "d42a31da6b171049086ebf69625e842d0029c8cd"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto_Condensed-SemiBoldItalic.ttf",
+      "sha1": "7d0e59b4d6454f7169972e4185aba192090a4eea"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto_Condensed-Thin.ttf",
+      "sha1": "f9726bc1c50d46bbde3465a5f122d083a157c512"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto_Condensed-ThinItalic.ttf",
+      "sha1": "08b7c9fbe3e6ecc218deac36bf85dc3d1eca75f5"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto_SemiCondensed-Black.ttf",
+      "sha1": "082786ff6c5447dd71d84cd958ad49550e34e946"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto_SemiCondensed-BlackItalic.ttf",
+      "sha1": "f8d806e89e03117842acf9201cb075d2462aa882"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto_SemiCondensed-Bold.ttf",
+      "sha1": "99fb3094f90c81f8e7170465a323c45cf4cf7228"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto_SemiCondensed-BoldItalic.ttf",
+      "sha1": "cbe1d896343a6af4d977064955c6aea762bceed2"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto_SemiCondensed-ExtraBold.ttf",
+      "sha1": "2f5bfa180dc855c534dc3b81a0b2b83738258c90"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto_SemiCondensed-ExtraBoldItalic.ttf",
+      "sha1": "d48131390678773688a10df726b97738143762fc"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto_SemiCondensed-ExtraLight.ttf",
+      "sha1": "b6acaaf04d5f10f75675165ff29f11abdc18d924"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto_SemiCondensed-ExtraLightItalic.ttf",
+      "sha1": "807eaf704c7520261e58de03470f22f7e637e8f3"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto_SemiCondensed-Italic.ttf",
+      "sha1": "9e565a7a8c94822df9ca33458f1ce1b97bd8d4b0"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto_SemiCondensed-Light.ttf",
+      "sha1": "d93dc296870245c2226379caba0f56a9edfbff06"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto_SemiCondensed-LightItalic.ttf",
+      "sha1": "069cfd565ba9a8ca8fa8bab6b3aaee1bf36ce9c8"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto_SemiCondensed-Medium.ttf",
+      "sha1": "140d18a97327a31fa332b0a22a907cfccc809b25"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto_SemiCondensed-MediumItalic.ttf",
+      "sha1": "ae767cd287317a77aabdb524dd556a0460d14888"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto_SemiCondensed-Regular.ttf",
+      "sha1": "3b088ea557c90e6dbf60894e06ef934ede330106"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto_SemiCondensed-SemiBold.ttf",
+      "sha1": "edc6d5cc92d79e84637a78cde2e3adfe4e085c2d"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto_SemiCondensed-SemiBoldItalic.ttf",
+      "sha1": "ba86508b1d08f6e0e4ff2ca71b35521007ed9994"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto_SemiCondensed-Thin.ttf",
+      "sha1": "efa3716adfba5bdb3ec38de4261c10c3c614ed51"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto/Roboto/static/Roboto_SemiCondensed-ThinItalic.ttf",
+      "sha1": "4015948dfdcc05da6c01e8950dc1f09bb0cc3ed0"
+    },
+    {
+      "path": "assets/fonts/Raleway,Roboto.zip",
+      "sha1": "4dff9516f5cda2f9692b04d0e40a174cca26c112"
+    }
+  ]
+}
